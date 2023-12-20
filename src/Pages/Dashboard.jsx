@@ -10,10 +10,12 @@ export default function Dashboard() {
   return (
     <div style={{marginTop:'150px',minWidth:'100%'}} >
         <Navbar/>
-        <h3 style={{textAlign:'center',marginBottom:'50px',color:'darkblue',textTransform:'uppercase'}}>Base Station</h3>
+        <h3 style={{textAlign:'center',marginBottom:'20px',color:'darkblue',textTransform:'uppercase'}}>Base Station</h3>
         <Admin/>
         <MapView/>
+        <div style={{marginTop:'50px'}}></div>
         <User/>
+        <div style={{marginTop:'50px'}}></div>
     </div>
   )
 }

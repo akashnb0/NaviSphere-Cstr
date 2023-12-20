@@ -21,8 +21,7 @@
   
   /* Map styles */
   .mapDiv {
-    height: 1050px;
-    width: 100vb;
+    height: 900px;
     border-radius: 10px;
     border: 2px solid gray; /* Adjust border properties */
   }
@@ -32,7 +31,6 @@
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    margin-top: 20px;
   }
   
   /* Coordinates inputs styles */
@@ -46,7 +44,7 @@
   
   .mapDiv {
     height: 80vh; /* Adjust the height as needed */
-    width: 100%;
+    width: 90%;
   }
   .mapsideDiv{
     overflow-x: scroll;

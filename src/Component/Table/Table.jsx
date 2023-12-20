@@ -44,7 +44,7 @@ const Admin = () => {
       <div>
         <center>
           <div>
-            <table className="table mb-0" style={{ border: '2px solid lightgray', borderRadius: '20px', paddingLeft: '50px', paddingRight: '20px', boxShadow: 'rgba(149,157,165,0.2) 0px 8px 24px' }}>
+            <table className="table mb-0" style={{ border: '2px solid lightgray', borderRadius: '20px',  boxShadow: 'rgba(149,157,165,0.2) 0px 8px 24px',width:'1200px',textAlign:'center',backgroundColor:'white',height:'300px' }}>
               <thead>
                 <tr>
                   {tableHeader.map((header, index) => (

@@ -1,0 +1,31 @@
+button.create-button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button.terminate-button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.last-updated {
+  font-style: italic;
+  color: #333;
+}

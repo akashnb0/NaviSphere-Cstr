@@ -1,0 +1,29 @@
+/* For the new table */
+.new-table-container {
+    margin-top: 20px; /* Adding margin to create space above the table */
+  }
+  
+  .new-table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 20px; /* Adding padding around the table */
+    margin-top: 10px; /* Adding margin on top of the table */
+  }
+  
+  .new-table th,
+  .new-table td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .new-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Adding some hover effect */
+  .new-table tbody tr:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease-in-out;
+  }
+  

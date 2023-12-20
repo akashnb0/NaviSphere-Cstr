@@ -1,0 +1,176 @@
+/* Map container styles */
+
+.mapviewcontainer
+{
+  padding-top: 130px;
+}
+.mapContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  /* CSS */
+.topCenter {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  
+  /* Map styles */
+  .mapDiv {
+    height: 1050px;
+    width: 100vb;
+    border-radius: 10px;
+    border: 2px solid gray; /* Adjust border properties */
+  }
+  
+  /* Coordinates card styles */
+  .coordinatesCard {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Coordinates inputs styles */
+  .coordinatesInputs {
+    margin-top: 20px;
+  }
+  
+  .mapContainer {
+    padding: 20px;
+  }
+  
+  .mapDiv {
+    height: 80vh; /* Adjust the height as needed */
+    width: 100%;
+  }
+  .mapsideDiv{
+    overflow-x: scroll;
+  }
+  
+  .coordinatesCard {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .coordinatesCard h4 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .jsonCoordinates {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .jsonCoordinates p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .distanceAndAccuracyCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .distanceAndAccuracyCard h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .distanceAndAccuracyCard p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .updateButton {
+   color: darkblue;
+   font-weight:10px;
+    margin: 10px;
+    background-color: rgba(26, 35, 126, 0.2);
+    border-radius: 30px;
+    padding: 20px 10px 20px 10px;
+  }
+  .updateButton:hover{
+    transition: 0.6s;
+    background-color:white;
+    padding: 10px;
+  }
+  button{
+    
+    color: #333;
+  }
+
+  /* Map.css */
+
+/* Define the styles for the table */
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  overflow-x: scroll;
+  background-color: #f0f0f0; /* Slightly dark background color */
+  border-radius: 10px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+}
+
+/* Additional styles or modifications as needed */
+/* error pro css */
+/* Error Metrics CSS*/
+
+
+
+.panel {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.panel:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+
+
+/* Positional Deviation Plot CSS*/
+
+.plotly-graph {
+  height: 400px; 
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: transform 0.3s ease-in-out;
+}
+
+.plotly-graph:hover {
+  transform: scale(1.05);
+}
